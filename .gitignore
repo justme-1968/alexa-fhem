@@ -1,0 +1,8 @@
+
+.DS_Store
+
+key.pem
+cert.pem
+alexa-fhem*tgz
+
+node_modules/
