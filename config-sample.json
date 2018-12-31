@@ -1,0 +1,23 @@
+{
+    "alexa": {
+        "port": 3000,
+        "name": "Alexa TEST",
+        "keyFile": "./key.pem",
+        "certFile": "./cert.pem",
+        "nat-pmp": "",
+        "nat-upnp": false,
+        "applicationId": "amzn1.ask.skill.XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+        "oauthClientID": "amzn1.application-oa2-client.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "permissions": {"<skill-id>": { "client_id": "xyz", "client_secret": "123"}}
+    },
+    
+    "connections": [
+        {
+            "name": "FHEM",
+            "server": "10.0.1.21",
+            "port": "8083",
+            "webname": "fhem",
+            "filter": "room=alexa"
+        }
+    ]
+}
