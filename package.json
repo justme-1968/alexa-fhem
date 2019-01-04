@@ -1,6 +1,6 @@
 {
   "name": "alexa-fhem",
-  "version": "0.4.10",
+  "version": "0.4.11",
   "description": "a fhem skill for amazon alexa",
   "author": "justme-1968",
   "license": "ISC",
