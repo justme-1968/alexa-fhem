@@ -6,7 +6,7 @@
 
 'use strict';
 
-process.title = 'alexa';
+// process.title = 'alexa';
 
 // Find the HomeBridge lib
 var path = require('path');
