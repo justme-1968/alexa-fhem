@@ -9,3 +9,6 @@ node_modules/
 
 TODO
 log
+
+*.swp
+alexa-fhem.cfg
