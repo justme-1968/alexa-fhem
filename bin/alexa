@@ -6,7 +6,7 @@
 
 'use strict';
 
-// process.title = 'alexa';
+setProcessTitle();
 
 // Find the HomeBridge lib
 var path = require('path');
@@ -15,3 +15,11 @@ var lib = path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
 
 // Run HomeBridge
 require(lib + '/cli')();
+
+function setProcessTitle() {
+  let t = [ process.title, process.argv[1] ];
+  for(var i=2; i < process.argv.length; i++ ) {
+    t.push((process.argv[i - 1] === '-a') ? 'xx:xx' : process.argv[i]);
+  }
+  process.title = t.join(' ');
+}
