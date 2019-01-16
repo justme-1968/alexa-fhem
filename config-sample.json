@@ -2,14 +2,17 @@
     "alexa": {
         "port": 3000,
         "name": "Alexa TEST",
-        "publicSkill" : true,
-        "ssh" : "/usr/bin/ssh",
         "keyFile": "./key.pem",
         "certFile": "./cert.pem",
         "applicationId": "amzn1.ask.skill.XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
         "oauthClientID": "amzn1.application-oa2-client.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         "permissions": {"<skill-id>": { "client_id": "xyz", "client_secret": "123"}}
     },
+
+   "sshproxy" : {
+      "description" : "FHEM Connector",
+      "ssh" : "/usr/bin/ssh"
+   },
     
     "connections": [
         {
