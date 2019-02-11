@@ -16,9 +16,12 @@
     "type": "git",
     "url": "https://github.com/justme-1968/alexa-fhem.git"
   },
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "dependencies": {
-    "chalk": "^1.1.1",
-    "commander": "2.8.1",
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
     "readline-sync": "^1.4.9",
     "request": "^2.88.0"
   },
