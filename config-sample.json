@@ -20,7 +20,6 @@
             "server": "10.0.1.21",
             "port": "8083",
             "webname": "fhem",
-	    "report": false,
             "filter": "room=alexa"
         }
     ]
