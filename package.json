@@ -22,8 +22,8 @@
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
-    "readline-sync": "^1.4.9",
-    "request": "^2.88.0"
+    "postman-request": "^2.88.1-postman.19",
+    "readline-sync": "^1.4.9"
   },
   "optionalDependencies": {
     "ws": "^6.1.2"
